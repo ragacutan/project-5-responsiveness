@@ -375,8 +375,37 @@
     font-size: 30px;
 }
 
+.studio > .studio-content > .studio-address{
+    display: flex;
+    position: relative;
+    margin-top: 2rem;
+}
 
+.studio > .studio-content > .studio-address > .location-icon{
+    margin-right: 1rem;
+    color: #fff;
+}
 
+.studio > .studio-content > .studio-address > .studio-content-text{
+    color: #fff;
+    font-size: 1rem;
+}
+
+.studio > .studio-content > .studio-contact-number{
+    display: flex;
+    position: relative;
+    margin-top: 2rem;
+}
+
+.studio > .studio-content > .studio-contact-number > .telephone-icon{
+    margin-right: 1rem;
+    color: #fff
+}
+
+.studio > .studio-content > .studio-contact-number > .studio-content-text{
+    color: #fff;
+    font-size: 1rem;
+}
 
 .news{
     padding-top: 50px;
@@ -391,10 +420,10 @@
 
 .news-letter{
     display: flex;
+    margin-top: 2rem;
     position: relative;
     height: 3rem;
 }
-
 
 .news-letter > .news-letter-input{
     width: 20rem;
@@ -404,9 +433,35 @@
     margin-right: 1rem;
 }
 
+.news-letter > .news-letter-input::placeholder{
+    font-family: Roboto;
+    color: #Fff;
+    text-align: center;
+}
+
 .news-letter > .news-letter-logo{
     color: #000;
     height: auto;
     padding: 10px;
     background: rgba(255, 255, 255, 0.5);
 }
+
+.copyright{
+    color: #fff;
+    font-family: Roboto;
+    font-size: 1rem;
+    margin-top: 5rem;
+    text-align: right;
+}
+
+.social-media-links{
+    display: flex;
+    position: relative;
+    margin-top: 2rem;
+}
+
+.social-media-links > .social-media-logo{
+
+    margin-right: 1rem;
+}
+
