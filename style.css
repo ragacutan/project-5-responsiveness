@@ -1,0 +1,142 @@
+/* Importing Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+/*Main CSS */
+
+.navbar{
+    position: absolute;
+    z-index: 1;
+    font-family: Roboto;
+    font-weight: bolder;
+    justify-content: center;
+    width: 100%;
+    background-color: #0000 !important;
+}
+
+.navbar-brand > img{
+    width: 50px;
+    height: auto;
+}
+
+.navbar-brand > .logo-name{
+    color: #07c8c0;
+    font-weight: 100;
+    font-size: 30px;
+}
+
+.nav{
+    display: flex;
+    gap: 5rem;
+}
+
+.nav-link{
+    color: white;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+.navbar .nav-link.active{
+    color: #07c8c0;
+}
+
+
+/* Banner Body */
+#banner{
+    background-image: url('Assets/banner-background-image.png');
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-color: #302951;
+    background-blend-mode: overlay;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+
+#banner > .container > .row > .col-12 > h1{
+    color: #fff;
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+    font-size: 50px;
+    padding: 20px;
+}
+
+#banner > .container > .row > .col-12 > .under-dash{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    color: white;
+    margin: auto;
+    padding: 30px;
+
+}
+
+#banner > .container > .row > .col-12 > p{
+    color: #fff;
+    font-size: 16.5px;
+    padding: 0rem 15rem ;
+}
+
+.btn-outline-primary {
+   border-color: #07c8c0;
+   color: #07c8c0;
+   font-weight: bold;
+   font-size: 20px;
+   padding: 15px;
+}
+
+.horizontal-circles{
+    color:white;
+    border-color: #07c8c0, 2px;
+    margin: auto;
+
+}
+
+
+
+#story {
+    padding: 5rem;
+}
+
+.story-logo{
+    width: 20rem;
+}
+
+.story-title{
+    font-family: "Playfair Display", serif;
+}
+
+.story-content{
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+
+
+#play-button{
+    background-image: url('/Assets/banner-city-background-image.png');
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #302951;
+    background-blend-mode: overlay;
+    padding: 10rem;
+}
+
+.play-button-icon{
+    width: 15%;
+    height: auto;
+    margin: auto;
+    color: #fff;
+    padding: 10px;
+}
+
+.play-button-text{
+    font-family: Roboto;
+    color: #fff;
+    font-size: 30px;
+    padding: 20px;
+}
