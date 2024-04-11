@@ -131,7 +131,7 @@ Main CSS
 }
 
 .about-logo{
-    width: 20rem;
+    width: 18rem;
     margin-left: 5rem;
 }
 
@@ -261,12 +261,13 @@ Main CSS
     background-size: cover;
     background-repeat: no-repeat;
     height: 90vh;
+    padding: 5rem;
     background-color: #302951;
     background-blend-mode: overlay;
 }
 
 .team{
-    padding: 10rem;
+    padding: 2rem;
 }
 
 .team > .team-title{
@@ -274,64 +275,61 @@ Main CSS
     color: #fff;
 }
 
-.team > .card-group{
-    width: 60rem;
+.team > .team-description{
+  font-family: "Playfair Display", serif;
+  color: #fff;
 }
 
-.team > .card-group > .card{
-    background-color: #0000 !important;
-    margin-left: 1rem;
-    height: 22rem;
-    max-height: 25rem;
-    width: 10rem;
-    border: solid 1px #fff ;
-    border-radius: 0%;
+.team-card {
+  width: 60rem; display: flex;
+  position: relative;
+  gap: 1rem;
 }
-.team > .card-group > .card > .team-picture{
+
+.team-card > .col-4 > .card{
+    background-color: #0000 !important;
+    border-radius: 0%;
+    height: 28rem;
+    border: 1px solid #e7e7e7;
+}
+
+.team-card > .col-4 > .card > .team-picture{
     background-color: #f5f4f6;
-    height: 15rem;
+    height: 20rem;
     border-color: #fff;
 }
 
-.team > .team-description{
-    font-family: "Playfair Display", serif;
+.team-card > .col-4 > .card > .card-body{
+    background-color: #0000;
+    padding: 2rem;
+    height: 5px;
+    border-color: #fff;
+}
+
+.team-card > .col-4 > .card > .card-body > .team-member-name{
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.team-card > .col-4 > .card > .card-body > .team-member-position{
     color: #fff;
 }
 
-
-.team > .card-group > .card > .card-body{
-    height: 1rem;
-    padding: 1rem;
-}
-
-.team > .card-group > .card > .card-body > .team-member-name{
-    font-family: Roboto;
-    font-weight: 900;
-    font-size: 25px;
-    color: #fff;
-}
-
-.team > .card-group > .card > .card-body > .team-member-position{
-    font-family: Roboto;
-    font-weight: 100;
-    font-size: 18px;
-    color: #fff;
-}
-
-.team > .join{
+.join{
   color: #fff;
   font-family: Roboto;
-  font-size: 20px;
-  margin-top: 3rem;
+  font-size: 18px;
+  margin-top: 2rem;
+
 }
 
+.col-12 .btn{
+  margin-top: 2rem;
+  padding: 15px;
+  text-transform: uppercase;
 
-.team > .team-btn {
-  padding: 0%;
-}
-
-.team > .btn{
-  padding: 1rem;
 }
 
 
@@ -356,7 +354,6 @@ Main CSS
 
 .works-content > .row > .col-3{
     padding: 0%;
- 
 }
 
 .works-content > .row > .col-3 > .left-side > .top > .card{
@@ -402,10 +399,9 @@ Main CSS
 }
 
 .btn{
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 }
-
 
 
 /*Testimonial Section CSS*/
@@ -419,25 +415,25 @@ Main CSS
 }
 
 .testimonial{
-    padding: 5rem;
+    padding: 1rem;
 }
 
 .testimonial > .testimonial-mark{
-    font-family: "PlayfairDisplay", serif;
-    font-size: 6rem;
-    font-weight: 900;
-    color: #fff;
+  padding-top: 5rem;
+  padding-bottom: 2rem;
 }
 
 .testimonial .testimonial-content{
     margin-right: 5rem;
     font-family: "PlayfairDisplay", serif;
+    font-size: 25px;
     color: #fff;
 }
 
 .testimonial .testimonial-by{
     font-family: Roboto;
-    font-size: 30px;
+    padding-top: 3rem;
+    font-size: 25px;
     color: #fff;
 }
 
@@ -448,8 +444,21 @@ Main CSS
     color: #fff
 }
 
-.testimonial .carousel{
-    width: 30rem;
+.testimonial-pic{
+  display: inline-block;
+  position: relative;
+}
+
+
+.testimonial-pic > .pictures{
+  padding: 1rem;
+}
+
+
+.testimonial-pic > .arrow-head{
+  padding: 1rem;
+  color: #acacac;
+  font-weight: 100;
 }
 
 
@@ -618,7 +627,7 @@ Main CSS
     color: #fff;
     font-family: Roboto;
     font-size: 1rem;
-    margin-top: 5rem;
+    margin-top: 7rem;
     text-align: right;
 }
 
@@ -629,7 +638,6 @@ Main CSS
 }
 
 .social-media-links > .social-media-logo{
-
     margin-right: 1rem;
 }
 
