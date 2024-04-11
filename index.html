@@ -18,44 +18,53 @@
 
 <body>
   <header>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-          <img src="Assets/nav-bar-logo.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
-          <span class="logo-name">tajam</span>
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <ul class="nav justify-content-end">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Expertise</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Teams</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Works</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">People Say</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
-          <!-- <li class="nav-item">
-                        <a class="nav-link disabled" aria-disabled="true">Teams</a>
-                    </li> -->
-        </ul>
+    <section id="navbar">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <nav class="navbar navbar-expand-lg">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-5">
+                    <div class="nav-logo">
+                      <a class="navbar-brand" href="#">
+                        <img src="Assets/nav-bar-logo.png" alt="Logo" width="30" height="24">
+                        <span class="logo-name">tajam</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-7">
+                    <ul class="nav justify-content-end">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Expertise</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Teams</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Works</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">People Say</a>
+                      </li>
+                      <a class="nav-link" href="#">Contact</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
       </div>
-    </nav>
+    </section>
+
     <section id="banner">
       <div class="container">
         <div class="row">
@@ -79,13 +88,12 @@
               velit.
             </p>
             <button type="button" class="btn btn-outline-primary">Learn More</button>
-
-            <div class="horizontal-circles">
-              <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="currentColor"
-                class="bi bi-three-dots" viewBox="0 0 24 24">
-                <path
-                  d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3m5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3m5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3" />
-              </svg>
+              <div class="text-center">
+                <span class="dot active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+              </div>
             </div>
           </div>
         </div>
@@ -156,22 +164,26 @@
                       <div class="top-card">
                         <div class="card">
                           <div class="image-container">
-                            <img src="/Assets/expertise-icon/web-design-and-development.png" class="card-img-top" alt="...">
+                            <img src="/Assets/expertise-icon/web-design-and-development.png" class="card-img-top"
+                              alt="...">
                           </div>
                           <div class="card-body">
                             <h5 class="card-title">Web Design & Development</h5>
-                            <p class="card-text">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
+                            <p class="card-text">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel
+                              velit auctor aliquet Aenean.</p>
                           </div>
                         </div>
                       </div>
                       <div class="bottom-card">
                         <div class="card">
                           <div class="image-container">
-                            <img src="/Assets/expertise-icon/search-engine-optimization.png" class="card-img-top" alt="...">
+                            <img src="/Assets/expertise-icon/search-engine-optimization.png" class="card-img-top"
+                              alt="...">
                           </div>
                           <div class="card-body">
                             <h5 class="card-title">Search Engine Optimization</h5>
-                            <p class="card-text">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
+                            <p class="card-text">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel
+                              velit auctor aliquet Aenean.</p>
                           </div>
                         </div>
                       </div>
@@ -181,12 +193,13 @@
                     <div class="center">
                       <div class="top-card">
                         <div class="card">
-                        <div class="image-container">
-                          <img src="/Assets/expertise-icon/branding-identity.png" class="card-img-top" alt="...">
-                        </div>
+                          <div class="image-container">
+                            <img src="/Assets/expertise-icon/branding-identity.png" class="card-img-top" alt="...">
+                          </div>
                           <div class="card-body">
                             <h5 class="card-title">Branding Identity</h5>
-                            <p class="card-text">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
+                            <p class="card-text">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel
+                              velit auctor aliquet Aenean.</p>
                           </div>
                         </div>
                       </div>
@@ -197,7 +210,8 @@
                           </div>
                           <div class="card-body">
                             <h5 class="card-title">Game Development</h5>
-                            <p class="card-text">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
+                            <p class="card-text">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel
+                              velit auctor aliquet Aenean.</p>
                           </div>
                         </div>
                       </div>
@@ -212,7 +226,8 @@
                           </div>
                           <div class="card-body">
                             <h5 class="card-title">Mobile App</h5>
-                            <p class="card-text">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
+                            <p class="card-text">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel
+                              velit auctor aliquet Aenean.</p>
                           </div>
                         </div>
                       </div>
@@ -223,7 +238,8 @@
                           </div>
                           <div class="card-body">
                             <h5 class="card-title">Made With Love</h5>
-                            <p class="card-text">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
+                            <p class="card-text">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel
+                              velit auctor aliquet Aenean.</p>
                           </div>
                         </div>
                       </div>
@@ -249,7 +265,9 @@
             </p>
             <div class="card-group">
               <div class="card">
-                <img src="#" class="card-img-top" alt="">
+                <div class="team-picture">
+                  <img src="..." class="card-img-top" alt="">
+                </div>
                 <div class="card-body">
                   <h1 class="team-member-name">
                     Semf Ucuk
@@ -257,11 +275,12 @@
                   <p class="team-member-position">
                     CEO & Founder
                   </p>
-
                 </div>
               </div>
               <div class="card">
-                <img src="..." class="card-img-top" alt="">
+                <div class="team-picture">
+                  <img src="..." class="card-img-top" alt="">
+                </div>
                 <div class="card-body">
                   <h1 class="team-member-name">
                     Dik Adalin
@@ -273,7 +292,9 @@
                 </div>
               </div>
               <div class="card">
-                <img src="..." class="card-img-top" alt="">
+                <div class="team-picture">
+                  <img src="..." class="card-img-top" alt="">
+                </div>
                 <div class="card-body">
                   <h1 class="team-member-name">
                     Jeng Kol
@@ -285,7 +306,9 @@
                 </div>
               </div>
               <div class="card">
-                <img src="..." class="card-img-top" alt="">
+                <div class="team-picture">
+                  <img src="..." class="card-img-top" alt="">
+                </div>
                 <div class="card-body">
                   <h1 class="team-member-name">
                     Pet Romark
@@ -299,8 +322,12 @@
             <p class="join">
               Become part of our dream team, let's join us!
             </p>
-            <button type="button" class="btn btn-outline-primary">We Are Hiring</button>
+            <div class="team-btn">
+              <button type="button" class="btn btn-outline-primary">We Are Hiring</button>
+            </div>
+
           </div>
+
         </div>
       </div>
     </div>
@@ -320,64 +347,60 @@
           <div class="works-content">
             <div class="row">
               <div class="col-3">
-                <div class="card">
-                  <div class="card-body">
-                    <h5 class="card-title"></h5>
-                    <p class="card-text"></p>
+                <div class="left-side">
+                  <div class="top">
+                    <div class="card">
+                    </div>
                   </div>
-                </div>
-                <div class="card">
-                  <div class="card-body">
-                    <h5 class="card-title"></h5>
-                    <p class="card-text"></p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-3">
-                <div class="card">
-                  <div class="card-body">
-                    <h5 class="card-title"></h5>
-                    <p class="card-text"></p>
-                  </div>
-                </div>
-                <div class="card">
-                  <div class="card-body">
-                    <h5 class="card-title"></h5>
-                    <p class="card-text"></p>
+                  <div class="bottom">
+                    <div class="card">
+                    </div>
                   </div>
                 </div>
               </div>
               <div class="col-3">
-                <div class="card">
-                  <div class="card-body">
-                    <h5 class="card-title"></h5>
-                    <p class="card-text"></p>
+                <div class="left">
+                  <div class="top">
+                    <div class="card">
+                    </div>
                   </div>
-                </div>
-                <div class="card">
-                  <div class="card-body">
-                    <h5 class="card-title"></h5>
-                    <p class="card-text"></p>
+                  <div class="bottom">
+                    <div class="card">
+                    </div>
                   </div>
                 </div>
               </div>
               <div class="col-3">
-                <div class="card">
-                  <div class="card-body">
-                    <h5 class="card-title"></h5>
-                    <p class="card-text"></p>
+                <div class="right">
+                  <div class="top">
+                    <div class="card">
+                    </div>
+                  </div>
+                  <div class="bottom">
+                    <div class="card">
+                    </div>
                   </div>
                 </div>
-                <div class="card">
-                  <div class="card-body">
-                    <h5 class="card-title"></h5>
-                    <p class="card-text"></p>
+              </div>
+              <div class="col-3">
+                <div class="right-side">
+                  <div class="top">
+                    <div class="card">
+                      <div class="card-body">
+                        <h5 class="card-title"></h5>
+                        <p class="card-text"></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="bottom">
+                    <div class="card">
+
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-
           <button type="button" class="btn btn-outline-primary">We Are Hiring</button>
         </div>
       </div>
@@ -434,7 +457,7 @@
       <div class="row">
         <div class="col-12">
           <div class="row">
-            <div class="col-7">
+            <div class="col-6">
               <h1 class="contact-title">GIVE US A GOOD NEWS</h1>
               <div class="mb-3">
                 <input type="text" class="form-control" id="floatingPassword" placeholder="Name">
@@ -454,24 +477,46 @@
               </div>
               <button type="button" class="btn btn-outline-primary">SUBMIT</button>
             </div>
-            <div class="col-5">
+            <div class="col-6">
               <h1 class="contact-title">OUR HAPPY CLIENT</h1>
               <div class="container text-center">
-                <div class="row">
-                  <div class="col">
-                    <img class="brand-logos" src="/Assets/logos/Zara_Logo.svg.png" />
-                    <img class="brand-logos" src="/Assets/logos/1280px-Barneys_New_York_Logo.svg.png" />
-                    <img class="brand-logos" src="/Assets/logos/Calvin_klein_logo.svg.png" />
-                    <img class="brand-logos" src="/Assets/logos/Converse_logo.svg.png" />
-                    <img class="brand-logos" src="/Assets/logos/1280px-Levi's_logo.svg.png" />
-                  </div>
-                  <div class="col"> </div>
-                  <div class="col">
-                    <img class="brand-logos" src="/Assets/logos/Logo_of_Mango_(new).svg.png">
-                    <img class="brand-logos" src="/Assets/logos/1280px-Gucci_Logo.svg.png" />
-                    <img class="brand-logos" src="/Assets/logos/1280px-Logo_NIKE.svg.png" />
-                    <img class="brand-logos" src="/Assets/logos/Puma_Logo.svg.png" />
-                    <img class="brand-logos" src="/Assets/logos/Billabong.svg.png" />
+                <div class="client-box">
+                  <div class="row">
+                    <div class="col-3">
+                      <div class="client-logo">
+                        <img class="brand-logos" src="/Assets/client-logo/Zara_Logo.svg.png" />
+                      </div>
+                      <div class="client-logo">
+                        <img class="brand-logos" src="/Assets/client-logo/1280px-Barneys_New_York_Logo.svg.png" />
+                      </div>
+                      <div class="client-logo">
+                        <img class="brand-logos" src="/Assets/client-logo/Calvin_klein_logo.svg.png" />
+                      </div>
+                      <div class="client-logo">
+                        <img class="brand-logos" src="/Assets/client-logo/Converse_logo.svg.png" />
+                      </div>
+                      <div class="client-logo">
+                        <img class="brand-logos" src="/Assets/client-logo/1280px-Levi's_logo.svg.png" />
+                      </div>
+                    </div>
+                    <div class="col-1"> </div>
+                    <div class="col-2">
+                      <div class="client-logo">
+                        <img class="brand-logos" src="/Assets/client-logo/Logo_of_Mango_(new).svg.png" />
+                      </div>
+                      <div class="client-logo">
+                        <img class="brand-logos" src="/Assets/client-logo/1280px-Gucci_Logo.svg.png" />
+                      </div>
+                      <div class="client-logo">
+                        <img class="brand-logos" src="/Assets/client-logo/1280px-Logo_NIKE.svg.png" />
+                      </div>
+                      <div class="client-logo">
+                        <img class="brand-logos" src="/Assets/client-logo/Puma_Logo.svg.png" />
+                      </div>
+                      <div class="client-logo">
+                        <img class="brand-logos" src="/Assets/client-logo/Billabong.svg.png" />
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -585,5 +630,4 @@
     </div>
   </section>
 </body>
-
 </html>
