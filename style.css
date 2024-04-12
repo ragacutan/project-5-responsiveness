@@ -77,24 +77,18 @@ Main CSS
     font-family: "Playfair Display", serif;
     font-weight: bold;
     font-size: 50px;
-    padding: 20px;
+    padding: 3px;
     margin-top: 10rem;
 }
 
-#banner > .container > .row > .col-12 > .under-dash{
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    color: white;
-    margin: auto;
-    padding: 30px;
-
+#banner > .container > .row > .col-12 > .banner-separator{
+    margin-bottom: 1rem;
 }
 
 #banner > .container > .row > .col-12 > p{
     color: #fff;
-    font-size: 16.5px;
-    padding: 0rem 15rem ;
+    font-size: 20px;
+    
 }
 
 .btn-outline-primary {
@@ -165,6 +159,8 @@ Main CSS
 
 .play-button-text{
     font-family: Roboto;
+    font-weight: bold;
+    text-transform: uppercase;
     color: #fff;
     font-size: 30px;
     padding: 20px;
@@ -183,9 +179,12 @@ Main CSS
 
 .expertise-description{
     font-family: "Playfair Display", serif;
-    margin-bottom: 3rem;
+    margin-bottom: 1px;
 }
 
+.expertise-separator{
+    margin-bottom: 2rem;
+}
 .content > .row > .col-4{
     padding: 0%;
 }
@@ -278,6 +277,7 @@ Main CSS
 .team > .team-description{
   font-family: "Playfair Display", serif;
   color: #fff;
+  margin-bottom: 1px;
 }
 
 .team-card {
@@ -524,8 +524,9 @@ Main CSS
 .footer-left-content{
     font-family: Roboto;
     font-size: 20px;
-    font-weight: 100;
+    font-weight: 300;
     color: #fff;
+    line-height: 2rem;
     margin-bottom: 50px;
 }
 
@@ -623,14 +624,6 @@ Main CSS
     background: rgba(255, 255, 255, 0.5);
 }
 
-.copyright{
-    color: #fff;
-    font-family: Roboto;
-    font-size: 1rem;
-    margin-top: 7rem;
-    text-align: right;
-}
-
 .social-media-links{
     display: flex;
     position: relative;
@@ -640,4 +633,14 @@ Main CSS
 .social-media-links > .social-media-logo{
     margin-right: 1rem;
 }
+
+.copyright{
+    color: #fff;
+    font-family: Roboto;
+    font-size: 1rem;
+    margin-top: 8rem;
+    text-align: right;
+}
+
+
 
