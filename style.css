@@ -651,7 +651,7 @@ Main CSS
     text-align: right;
 }
 
-@media (max-width: 1024px){
+@media (max-width: 1400px){
 
     #navbar > .container > .row > .col-12 > .navbar > .container-fluid > .row {
         width: 100%;
@@ -738,7 +738,7 @@ Main CSS
         padding-bottom: 20px;
     }
     #expertise > .container > .row > .col-12 > .row > .card-group > .content > .row > .col-4 > .center{
-                display: flex;
+        display: flex;
         flex-direction: row;
         padding-left: 20px;
         padding-right: 20px;
@@ -1023,7 +1023,6 @@ Main CSS
 
     #expertise{
         width: 100%;
-        padding: rem;
     }
 
     #expertise > .container > .row > .col-12 > .row > .card-group > .content > .row > .col-4{
@@ -1032,76 +1031,77 @@ Main CSS
     }
 
     #expertise > .container > .row > .col-12 > .row > .card-group > .content > .row > .col-4 > .left{
+        display: flex;
+        flex-direction: column;
         width: 100%;
-        padding-left: 20px;
-        padding-right: 20px;
-        padding-bottom: 20px;
+        padding: 1rem;
     }
 
     #expertise > .container > .row > .col-12 > .row > .card-group > .content > .row > .col-4 > .right{
+        display: flex;
+        flex-direction: column;
         width: 100%;
         padding-left: 20px;
         padding-right: 20px;
         padding-bottom: 20px;
     }
     #expertise > .container > .row > .col-12 > .row > .card-group > .content > .row > .col-4 > .center{
+        display: flex;
+        flex-direction: column;
         padding-left: 20px;
         padding-right: 20px;
         padding-bottom: 20px;
     }
 
     #expertise > .container > .row > .col-12 > .row > .card-group > .content > .row > .col-4 > .left > .top-card{
+      margin: 0%;
       padding-bottom: 20px;
     }
 
     #expertise > .container > .row > .col-12 > .row > .card-group > .content > .row > .col-4 > .center > .top-card{
+      margin: 0%;
       padding-bottom: 20px;
     }
 
     #expertise > .container > .row > .col-12 > .row > .card-group > .content > .row > .col-4 > .right > .top-card{
+      margin: 0%;
       padding-bottom: 20px;
     }
 
     #expertise > .container > .row > .col-12 > .row > .card-group > .content > .row > .col-4 > .left > .top-card > .card{
-        width: 100%;
-        height: 20rem;
-        display: inline-block;
-        align-items: center;
-        border-left: 1px solid #000000 !important;
-        border-right: 1px solid #000 !important;
-        border-top: 1px solid #000 !important;
-        border-bottom: 1px solid #000 !important;
+      width: 100%;
+      height: 20rem;
+      padding: 2rem;
+      border-left: 1px solid #000000 !important;
+      border-right: 1px solid #000 !important;
+      border-top: 1px solid #000 !important;
+      border-bottom: 1px solid #000 !important;
     }
 
     #expertise > .container > .row > .col-12 > .row > .card-group > .content > .row > .col-4 > .left > .bottom-card > .card{
-        width: 100%;
-        height: 20rem;
-        display: flex;
-        align-items: center;
-        border-left: 1px solid #000000 !important;
-        border-right: 1px solid #000 !important;
-        border-top: 1px solid #000 !important;
-        border-bottom: 1px solid #000 !important;
+      width: 100%;
+      height: 20rem;
+      padding: 2rem;
+      border-left: 1px solid #000000 !important;
+      border-right: 1px solid #000 !important;
+      border-top: 1px solid #000 !important;
+      border-bottom: 1px solid #000 !important;
     }
     
     #expertise > .container > .row > .col-12 > .row > .card-group > .content > .row > .col-4 > .center > .top-card > .card{
-        width: 100%;
-        height: 20rem;
-        display: flex;
-        display: inline-block;
-        align-items: center;
-        border-left: 1px solid #000000 !important;
-        border-right: 1px solid #000 !important;
-        border-top: 1px solid #000 !important;
-        border-bottom: 1px solid #000 !important;
+      width: 100%;
+      height: 20rem;
+      padding: 2rem;
+      border-left: 1px solid #000000 !important;
+      border-right: 1px solid #000 !important;
+      border-top: 1px solid #000 !important;
+      border-bottom: 1px solid #000 !important;
     }
 
     #expertise > .container > .row > .col-12 > .row > .card-group > .content > .row > .col-4 > .center > .bottom-card > .card{
         width: 100%;
         height: 20rem;
-        display: flex;
-        display: inline-block;
-        align-items: center;
+        padding: 2rem;
         border-left: 1px solid #000000 !important;
         border-right: 1px solid #000 !important;
         border-top: 1px solid #000 !important;
@@ -1111,9 +1111,7 @@ Main CSS
     #expertise > .container > .row > .col-12 > .row > .card-group > .content > .row > .col-4 > .right > .top-card > .card{
         width: 100%;
         height: 20rem;
-        display: flex;
-        display: inline-block;
-        align-items: center;
+        padding: 2rem;
         border-left: 1px solid #000000 !important;
         border-right: 1px solid #000 !important;
         border-top: 1px solid #000 !important;
@@ -1123,9 +1121,7 @@ Main CSS
     #expertise > .container > .row > .col-12 > .row > .card-group > .content > .row > .col-4 > .right > .bottom-card > .card{
         width: 100%;
         height: 20rem;
-        display: flex;
-        display: inline-block;
-        align-items: center;
+        padding: 2rem;
         border-left: 1px solid #000000 !important;
         border-right: 1px solid #000 !important;
         border-top: 1px solid #000 !important;
@@ -1145,6 +1141,7 @@ Main CSS
     #team > .container > .row > .col-12 > .card-group{
         display: flex;
         justify-content: center;
+        padding: 5rem;
     }
 
     #team > .container > .row > .col-12 > .card-group > .row > .team-card{
@@ -1156,11 +1153,7 @@ Main CSS
     #team > .container > .row > .col-12 > .card-group > .row > .team-card > .col-4{
         width: 100%;
     }
-
-    #team > .container > .row > .col-12 > .card-group > .row > .team-card > .col-4 > .card{
-        background-color: red;
-    }
-
+    
     #works{
         width: 100%;
     }
@@ -1201,6 +1194,10 @@ Main CSS
         font-size: 25px;
     }
 
+    #testimonial > .container > .row > .col-12 > .row > .col-3{
+        width: 0;
+    }
+    
     #testimonial > .container > .row > .col-12 > .row > .col-6{
         width: 100%;
         text-align: center;
@@ -1240,3 +1237,4 @@ Main CSS
         width: 100%;
     }
 }
+
