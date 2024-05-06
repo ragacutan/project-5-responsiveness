@@ -47,10 +47,18 @@ Main CSS
     width: 45rem;
 }
 
+.hamburger-icon{
+    display: none;
+}
+
 .nav-link{
     color: white;
     text-transform: uppercase;
     padding: 15px;
+}
+
+.navbar .nav-link:hover{
+    color: #07c8c0;
 }
 
 .navbar .nav-link.active{
@@ -62,13 +70,14 @@ Main CSS
 #banner{
     background-image: url('Assets/banner-background-image.png');
     background-size: cover;
-    height: 80vh;
+    height: fit-content;
     background-repeat: no-repeat;
     background-color: #302951;
     background-blend-mode: overlay;
     display: flex;
     align-items: center;
     position: relative;
+    padding-bottom: 3rem;
 }
 
 
@@ -126,7 +135,6 @@ Main CSS
 
 .about-logo{
     width: 18rem;
-    margin-left: 5rem;
 }
 
 .about-title{
@@ -642,5 +650,592 @@ Main CSS
     text-align: right;
 }
 
+@media (max-width: 1024px){
+
+    #navbar > .container > .row > .col-12 > .navbar > .container-fluid > .row {
+        width: 100%;
+        align-items: center;
+    }
+
+    #navbar > .container > .row > .col-12 > .navbar > .container-fluid > .row > .col-5{
+        display: flex;
+        width: 50%;
+    }
+
+    #navbar > .container > .row > .col-12 > .navbar > .container-fluid > .row > .nav-logo{
+        text-align: left;
+        width: 50%;
+    }
+
+    #navbar > .container > .row > .col-12 > .navbar > .container-fluid > .row > .col-7{
+        width: 50%;
+    }
+
+    #navbar > .container > .row > .col-12 > .navbar > .container-fluid > .row > .col-7 > .hamburger-icon{
+        display: flex;
+        width: 15%;
+        color: white;
+    }
+
+    #navbar > .container > .row > .col-12 > .navbar > .container-fluid > .row > .col-7 > .nav{
+        display: none;
+    }
+
+    #banner{
+        width: 100%;
+        height: fit-content;
+    }
+
+    #banner > .container > .row > .col-12{
+        padding: 3rem;
+    }
+
+    #about > .container > .row > .col-12 > .about > .row > .col-5{
+        display: flex;
+        align-items: center;
+        width: 40%;
+    }
+
+    #about > .container > .row > .col-12 > .about > .row > .col-7{
+        width: 60%;
+    }
 
 
+    #play-button{
+        width: 100%;
+    }
+
+    #play-button > .container > .row  > .col-12 > .play-button-icon{
+        width: 30%;
+    }
+
+    #expertise{
+        width: 100%;
+        padding: rem;
+    }
+
+    #expertise > .container > .row > .col-12 > .row > .card-group > .content > .row > .col-4{
+        width: 100%;
+        padding: 0%;
+    }
+
+    #expertise > .container > .row > .col-12 > .row > .card-group > .content > .row > .col-4 > .left{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+    }
+
+    #expertise > .container > .row > .col-12 > .row > .card-group > .content > .row > .col-4 > .right{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+    }
+    #expertise > .container > .row > .col-12 > .row > .card-group > .content > .row > .col-4 > .center{
+                display: flex;
+        flex-direction: row;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+    }
+
+    #expertise > .container > .row > .col-12 > .row > .card-group > .content > .row > .col-4 > .left > .top-card{
+        padding-bottom: 20px;
+        margin-right: 10px;
+    }
+
+    #expertise > .container > .row > .col-12 > .row > .card-group > .content > .row > .col-4 > .center > .top-card{
+      padding-bottom: 20px;
+      margin-right: 10px;
+    }
+
+    #expertise > .container > .row > .col-12 > .row > .card-group > .content > .row > .col-4 > .right > .top-card{
+      padding-bottom: 20px;
+      margin-right: 10px;
+    }
+
+    #expertise > .container > .row > .col-12 > .row > .card-group > .content > .row > .col-4 > .left > .top-card > .card{
+        width: 100%;
+        height: 20rem;
+        display: inline-block;
+        align-items: center;
+        border-left: 1px solid #000000 !important;
+        border-right: 1px solid #000 !important;
+        border-top: 1px solid #000 !important;
+        border-bottom: 1px solid #000 !important;
+    }
+
+    #expertise > .container > .row > .col-12 > .row > .card-group > .content > .row > .col-4 > .left > .bottom-card > .card{
+        width: 100%;
+        height: 20rem;
+        display: flex;
+        align-items: center;
+        border-left: 1px solid #000000 !important;
+        border-right: 1px solid #000 !important;
+        border-top: 1px solid #000 !important;
+        border-bottom: 1px solid #000 !important;
+    }
+    
+    #expertise > .container > .row > .col-12 > .row > .card-group > .content > .row > .col-4 > .center > .top-card > .card{
+        width: 100%;
+        height: 20rem;
+        display: flex;
+        display: inline-block;
+        align-items: center;
+        border-left: 1px solid #000000 !important;
+        border-right: 1px solid #000 !important;
+        border-top: 1px solid #000 !important;
+        border-bottom: 1px solid #000 !important;
+    }
+
+    #expertise > .container > .row > .col-12 > .row > .card-group > .content > .row > .col-4 > .center > .bottom-card > .card{
+        width: 100%;
+        height: 20rem;
+        display: flex;
+        display: inline-block;
+        align-items: center;
+        border-left: 1px solid #000000 !important;
+        border-right: 1px solid #000 !important;
+        border-top: 1px solid #000 !important;
+        border-bottom: 1px solid #000 !important;
+    }
+    
+    #expertise > .container > .row > .col-12 > .row > .card-group > .content > .row > .col-4 > .right > .top-card > .card{
+        width: 100%;
+        height: 20rem;
+        display: flex;
+        display: inline-block;
+        align-items: center;
+        border-left: 1px solid #000000 !important;
+        border-right: 1px solid #000 !important;
+        border-top: 1px solid #000 !important;
+        border-bottom: 1px solid #000 !important;
+    }
+
+    #expertise > .container > .row > .col-12 > .row > .card-group > .content > .row > .col-4 > .right > .bottom-card > .card{
+        width: 100%;
+        height: 20rem;
+        display: flex;
+        display: inline-block;
+        align-items: center;
+        border-left: 1px solid #000000 !important;
+        border-right: 1px solid #000 !important;
+        border-top: 1px solid #000 !important;
+        border-bottom: 1px solid #000 !important;
+    }
+
+    #team{
+        width: 100%;
+        height: fit-content;
+    }
+
+    #team > .container > .row > .col-12{
+        width: 100%;
+    }
+
+    #team > .container > .row > .col-12 > .card-group{
+        width: 100%;
+        justify-content: center;
+    }
+    
+    #team > .container > .row > .col-12 > .card-group > .row{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    #team > .container > .row > .col-12 > .card-group > .row > .team-card{
+        width: 50%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    #team > .container > .row > .col-12 > .card-group > .row > .team-card > .col-4{
+        width: 50%;
+    }
+    #team > .container > .row > .col-12 > .card-group > .row > .team-card > .col-4 > .card > .team-picture{
+        width: 100%;
+        height: 60%;
+    }
+
+
+    #works{
+        width: 100%;
+    }
+
+    #works > .container > .row > .col-12 > .row > .col-6 > .all-works-title{
+        font-size: 23px;
+    }
+
+    #testimonial{
+        width: 100%;
+        height: fit-content;
+    }
+
+    #testimonial > .container > .row > .col-12 > .testimonial > .testimonial-content{
+        padding: 0%;
+        margin: 0%;
+    }
+
+    #testimonial > .container > .row > .col-12 > .row .col-3{
+        width: 0%;
+    }
+    #testimonial > .container > .row > .col-12 > .row .col-6{
+        width: 100%;
+        margin-bottom: 3rem;
+    }
+
+    #contact{
+        width: 100%;
+    }
+
+    #contact > .container > .row > .col-12 > .row > .col-6 > .container > .client-box > .row{
+        width: 100%;
+    }
+    #contact > .container > .row > .col-12 > .row > .col-6 > .container > .client-box > .row .col-3{
+        width: 50%;
+    }
+}
+
+@media (max-width: 767px){
+
+    /*-------------------------------------
+    Navigation Section
+    -------------------------------------*/
+    #navbar > .container > .row > .col-12 > .navbar > .container-fluid > .row {
+        width: 100%;
+        align-items: center;
+    }
+
+    #navbar > .container > .row > .col-12 > .navbar > .container-fluid > .row > .col-5{
+        text-align: right;
+        width: 50%;
+    }
+    #navbar > .container > .row > .col-12 > .navbar > .container-fluid > .row > .col-7{
+        width: 50%;
+    }
+
+    .navbar-brand{
+        display: flex;
+        align-items: center;
+    }
+    
+
+    .nav-link{
+        display: none;
+    }
+    .navbar-brand > img{
+        width: 50px;
+        height: auto;
+        margin: 0%;
+    }
+
+    .hamburger-icon{
+        display: flex;
+        color: white;
+        width: 20%;
+    }
+
+    /*-------------------------------------
+    Banner Section
+    -------------------------------------*/
+    #banner > .container > .row > .col-12 > h1{
+        font-size: 35px;
+        padding: 10px;
+    }
+
+    #banner > .container > .row > .col-12 > p{
+        font-size: 15px;
+        padding: 20px;
+    }
+
+    .btn-outline-primary{
+        font-size: 15px;
+    }
+
+    .dot{
+        margin-top: 1px;
+        height: 10px;
+        width: 10px;
+    }
+
+
+    /*-------------------------------------
+    About Section
+    -------------------------------------*/
+    #about > .container > .row > .col-12 > .about > .row > .col-5{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    #about > .container > .row > .col-12 > .about > .row > .col-7{
+        width: 100%;
+        text-align: center;
+
+    }
+    
+    #about > .container > .row > .col-12 > .about > .row > .col-7 > .about-title{
+        text-align: center;
+        padding: 1rem;
+    }
+    
+    #about > .container > .row > .col-12 > .about > .row > .col-7 > .about-content{
+        text-align: center;
+        padding: 1rem;
+    }
+
+    #about > .container > .row > .col-12 > .about > .row > .col-7 > .button{
+        padding: auto;
+    }
+
+    
+    /*-------------------------------------
+    Play-Button Section
+    -------------------------------------*/
+    #play-button{
+        width: 100%;
+        padding: 5rem;
+    }
+    
+    #play-button > .container{
+        width: 100%;
+    }
+
+    #play-button > .container > .row > .col-12.text-center{
+        width: 100%;
+    }
+
+    .play-button-icon{
+        width: 70%;
+    }
+
+
+    /*-------------------------------------
+    Expertise Section
+    -------------------------------------*/
+
+    #expertise{
+        width: 100%;
+        padding: rem;
+    }
+
+    #expertise > .container > .row > .col-12 > .row > .card-group > .content > .row > .col-4{
+        width: 100%;
+        padding: 0%;
+    }
+
+    #expertise > .container > .row > .col-12 > .row > .card-group > .content > .row > .col-4 > .left{
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+    }
+
+    #expertise > .container > .row > .col-12 > .row > .card-group > .content > .row > .col-4 > .right{
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+    }
+    #expertise > .container > .row > .col-12 > .row > .card-group > .content > .row > .col-4 > .center{
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+    }
+
+    #expertise > .container > .row > .col-12 > .row > .card-group > .content > .row > .col-4 > .left > .top-card{
+      padding-bottom: 20px;
+    }
+
+    #expertise > .container > .row > .col-12 > .row > .card-group > .content > .row > .col-4 > .center > .top-card{
+      padding-bottom: 20px;
+    }
+
+    #expertise > .container > .row > .col-12 > .row > .card-group > .content > .row > .col-4 > .right > .top-card{
+      padding-bottom: 20px;
+    }
+
+    #expertise > .container > .row > .col-12 > .row > .card-group > .content > .row > .col-4 > .left > .top-card > .card{
+        width: 100%;
+        height: 20rem;
+        display: inline-block;
+        align-items: center;
+        border-left: 1px solid #000000 !important;
+        border-right: 1px solid #000 !important;
+        border-top: 1px solid #000 !important;
+        border-bottom: 1px solid #000 !important;
+    }
+
+    #expertise > .container > .row > .col-12 > .row > .card-group > .content > .row > .col-4 > .left > .bottom-card > .card{
+        width: 100%;
+        height: 20rem;
+        display: flex;
+        align-items: center;
+        border-left: 1px solid #000000 !important;
+        border-right: 1px solid #000 !important;
+        border-top: 1px solid #000 !important;
+        border-bottom: 1px solid #000 !important;
+    }
+    
+    #expertise > .container > .row > .col-12 > .row > .card-group > .content > .row > .col-4 > .center > .top-card > .card{
+        width: 100%;
+        height: 20rem;
+        display: flex;
+        display: inline-block;
+        align-items: center;
+        border-left: 1px solid #000000 !important;
+        border-right: 1px solid #000 !important;
+        border-top: 1px solid #000 !important;
+        border-bottom: 1px solid #000 !important;
+    }
+
+    #expertise > .container > .row > .col-12 > .row > .card-group > .content > .row > .col-4 > .center > .bottom-card > .card{
+        width: 100%;
+        height: 20rem;
+        display: flex;
+        display: inline-block;
+        align-items: center;
+        border-left: 1px solid #000000 !important;
+        border-right: 1px solid #000 !important;
+        border-top: 1px solid #000 !important;
+        border-bottom: 1px solid #000 !important;
+    }
+    
+    #expertise > .container > .row > .col-12 > .row > .card-group > .content > .row > .col-4 > .right > .top-card > .card{
+        width: 100%;
+        height: 20rem;
+        display: flex;
+        display: inline-block;
+        align-items: center;
+        border-left: 1px solid #000000 !important;
+        border-right: 1px solid #000 !important;
+        border-top: 1px solid #000 !important;
+        border-bottom: 1px solid #000 !important;
+    }
+
+    #expertise > .container > .row > .col-12 > .row > .card-group > .content > .row > .col-4 > .right > .bottom-card > .card{
+        width: 100%;
+        height: 20rem;
+        display: flex;
+        display: inline-block;
+        align-items: center;
+        border-left: 1px solid #000000 !important;
+        border-right: 1px solid #000 !important;
+        border-top: 1px solid #000 !important;
+        border-bottom: 1px solid #000 !important;
+    }
+
+
+    #team{
+        width: 100%;
+        height: fit-content;
+    }
+
+    #team > .container > .row > .col-12{
+        width: 100%;
+    }
+
+    #team > .container > .row > .col-12 > .card-group{
+        display: flex;
+        justify-content: center;
+    }
+
+    #team > .container > .row > .col-12 > .card-group > .row > .team-card{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #team > .container > .row > .col-12 > .card-group > .row > .team-card > .col-4{
+        width: 100%;
+    }
+
+    #team > .container > .row > .col-12 > .card-group > .row > .team-card > .col-4 > .card{
+        background-color: red;
+    }
+
+    #works{
+        width: 100%;
+    }
+
+    #works > .container > .row > .col-12 >.row > .col-6 > .works-title {
+        font-size: 25px;
+    }
+
+    #works > .container > .row > .col-12 >.row > .col-6 > .all-works-title{
+        font-size: 15px;
+        text-align: left;
+    }
+
+
+    #testimonial{
+        width: 100%;
+        height: fit-content;
+    }
+
+    #testimonial > .container > .row > .col-12 > .testimonial{
+        width: 100%;
+        text-align: center;
+    }
+
+    #testimonial > .container > .row > .col-12 > .testimonial{
+        width: 100%;
+        text-align: center;
+    }
+    
+    #testimonial > .container > .row > .col-12 > .testimonial > .testimonial-mark{
+        width: 5%;
+        text-align: center;
+    }
+
+    #testimonial > .container > .row > .col-12 > .testimonial > .testimonial-content{
+        width: 100%;
+        text-align: center;
+        font-size: 25px;
+    }
+
+    #testimonial > .container > .row > .col-12 > .row > .col-6{
+        width: 100%;
+        text-align: center;
+        font-size: 25px;
+
+    }
+    #testimonial > .container > .row > .col-12 > .row > .col-6 > .testimonial-pic{
+        width: 30px;
+        padding: 6% ;
+
+    }
+    #testimonial > .container > .row > .col-12 > .row > .col-6 > .arrow-head{
+        font-size: 20px;
+    }
+
+    #contact{
+        width: 100%;
+        padding: 20px;
+    }
+
+    #contact > .container > .row > .col-12 > .row > .col-6{
+        width: 100%;
+    }
+
+    #contact > .container > .row > .col-12 > .row > .col-6 > .container > .client-box > .row > .col-3{ 
+        width: 50%;
+    }
+
+
+    #footer{
+        width: 100%;
+        height: fit-content;
+        padding: 20px;
+    }
+
+    #footer > .container > .row > .col-12 > .footer > .row > .col-4{
+        width: 100%;
+    }
+}
