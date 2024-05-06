@@ -267,7 +267,7 @@ Main CSS
     background-image: url('/Assets/banner-team-background-image.png');
     background-size: cover;
     background-repeat: no-repeat;
-    height: 90vh;
+    height: fit-content;
     padding: 5rem;
     background-color: #302951;
     background-blend-mode: overlay;
@@ -417,7 +417,8 @@ Main CSS
     background-image: url('/Assets/banner-testimonial-image.png');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 60vh;
+    height: fit-content;
+    padding: 5rem;
     background-color: #302951;
     background-blend-mode: overlay;
 }
